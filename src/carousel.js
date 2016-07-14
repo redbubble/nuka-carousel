@@ -194,6 +194,7 @@ const Carousel = React.createClass({
                   nextSlide={self.nextSlide}
                   previousSlide={self.previousSlide}
                   goToSlide={self.goToSlide} />
+                  data={self.props.decoratorData}
               </div>
             )
           })
